@@ -52,6 +52,7 @@ export const removeWatermark = async (
     throw new Error("Model did not return an image. It might have refused the request.");
   } catch (error: any) {
     console.error("Gemini API Error:", error);
+    alert("API Error: " + (error.message || "Unknown error"));
     throw new Error(error.message || "Failed to process image");
   }
 };
