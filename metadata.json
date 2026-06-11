@@ -1,0 +1,6 @@
+{
+  "name": "ClearView AI - Watermark Remover",
+  "description": "An AI-powered tool to remove watermarks from images and video frames using Google Gemini 2.5 Flash Image capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
