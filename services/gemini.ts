@@ -21,7 +21,7 @@ export const removeWatermark = async (
     const cleanBase64 = extractBase64Data(base64Image);
 
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash-image',
+      model: 'gemini-2.5-flash',
       contents: {
         parts: [
           {
